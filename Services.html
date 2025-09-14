@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="D:\python m\html\clinic project\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"
+        integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f0efef;
+        }
+
+        .st {
+            background-color: #5225b5;
+
+            a {
+                color: rgba(255, 255, 255, 0.8);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <a href="Home.html"><img height="60px"
+                        src="https://www.drreddys.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdesktop_logo.b06cd169.png&w=384&q=75"
+                        alt=""></a>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 d-flex justify-content-center p-2">
+                <input type="text" class="rounded-4 w-100" placeholder="search here....">
+            </div>
+            <div class="col-md-4 p-2 d-flex justify-content-center">
+                <button class="btn btn-lg"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <a class="text-decoration-none text-dark" href="Contact.html">Clinic Locater</a></button>
+                <button class="btn btn-lg " data-bs-toggle="modal" data-bs-target="#loginmodal"><i class="fa fa-user"
+                        aria-hidden="true"></i>
+                    Login</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="loginmodal">
+        <div class="modal-dialog text-white">
+            <div class="modal-header">
+                <h1>Login</h1>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="form-label">Username:</label>
+                    <input class="w-100" type="text" placeholder="enter username.....">
+                </div>
+                <div class="form-group">
+                    <label for="" class="form-label">Password:</label>
+                    <input class="w-100" type="password" placeholder="enter password....">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class=" rounded-3 p-3 w-100">Login</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row st">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#bar"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse justify-content-center" id="bar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-white" href="Home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="Services.html">Service</a></li>
+                        <li class="nav-item"><a class="nav-link text-white"
+                                href="Book-appointment.html">Book-Appointment</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="Contact.html">Locations</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center">SERVICES</h1>
+            <hr>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row d-flex justify-content-around">
+            <h3 id="den">Dental:</h3>
+            <div class="col-md-4">
+                <img height="250px"
+                    src="https://th.bing.com/th/id/OIP.C5q1LBErJMjbpIGNZMOD3QHaE8?w=258&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3">
+                <br><br>
+                <button class="btn btn-large border border-dark d-block mx-auto "><a class="nav-link"
+                        href="Book-appointment.html">Book Appointment</a></button>
+            </div>
+            <div class="col-md-6">
+                <p class="para">Dentistry, also known as dental medicine and oral medicine is the branch of medicine
+                    focused on the teeth, gums, and mouth. It consists of the study, diagnosis, prevention, and
+                    treatment of diseases, disorders, and conditions of the mouth, most commonly focused on dentition
+                    (development and arrangement of teeth) as well as the oral mucosa. Dentistry may also encompass
+                    other aspects of the craniofacial complex including the temporomandibular joint. The practitioner is
+                    called a dentist. The history of dentistry is almost as ancient as the history of humanity and
+                    civilization, with the earliest evidence dating from 7000 BC to 5500 BC. Dentistry is thought to
+                    have been the first specialization in medicine which has gone on to develop its own accredited
+                    degree with its own specializations. Dentistry is often also understood to subsume the now largely
+                    defunct medical specialty of stomatology (the study of the mouth and its disorders and diseases) for
+                    which reason the two terms are used interchangeably in certain regions. However, some specialties
+                    such as oral and maxillofacial surgery (facial reconstruction) may require both medical and dental
+                    degrees to accomplish. In European history, dentistry is considered to have stemmed from the trade
+                    of barber surgeons.</p>
+            </div>
+            <hr>
+        </div>
+        <div class="row d-flex justify-content-around">
+            <h3 id="up">Health Checkups:</h3>
+            <div class="col-md-4">
+                <img height="250px" src="https://images.pexels.com/photos/7659565/pexels-photo-7659565.jpeg">
+                <br><br>
+                <button class="btn btn-large border border-dark d-block mx-auto "><a class="nav-link"
+                        href="Book-appointment.html">Book Appointment</a></button>
+            </div>
+            <div class="col-md-6">
+                <p class="para">
+                    Health Check was a certification program operated by the Heart and Stroke Foundation of Canada.
+                    First established in 1999, the program allowed food products that met predetermined nutritional
+                    guidelines to be marketed using a Health Check seal, identifying the product as being endorsed by
+                    the Heart and Stroke Foundation. Distributors and restaurants were required to pay a fee to the
+                    Heart and Stroke Foundation to license the logo. Health Check was a certification program operated
+                    by the Heart and Stroke Foundation of Canada. First established in 1999, the program allowed food
+                    products that met predetermined nutritional guidelines to be marketed using a Health Check seal,
+                    identifying the product as being endorsed by the Heart and Stroke Foundation. Distributors and
+                    restaurants were required to pay a fee to the Heart and Stroke Foundation to license the logo. The
+                    Health Check program was discontinued in 2014; the program had been criticized by University of
+                    Ottawa professor Yoni Freedhoff for endorsing products with high sugar and sodium contents as
+                    purportedly being healthy options.
+                </p>
+            </div>
+            <hr>
+        </div>
+        <div class="row d-flex justify-content-around">
+            <h3 id="phy">Physiotherapy:</h3>
+            <div class="col-md-4">
+                <img height="250px"
+                    src="data:image/webp;base64,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">
+                <br><br>
+                <button class="btn btn-large border border-dark d-block mx-auto "><a class="nav-link"
+                        href="Book-appointment.html">Book Appointment</a></button>
+            </div>
+            <div class="col-md-6">
+                <p class="para">
+                    Physical therapy (PT), also known as physiotherapy, is a healthcare profession, as well as the care
+                    provided by physical therapists who promote, maintain, or restore health through patient education,
+                    physical intervention, disease prevention, and health promotion. Physical therapist is the term used
+                    for such professionals in the United States, and physiotherapist is the term used in many other
+                    countries. The career has many specialties including musculoskeletal, orthopedics, cardiopulmonary,
+                    neurology, endocrinology, sports medicine, geriatrics, pediatrics, women's health, wound care and
+                    electromyography. PTs practice in many settings, both public and private. In addition to clinical
+                    practice, other aspects of physical therapy practice include research, education, consultation, and
+                    health administration.
+                </p>
+            </div>
+            <hr>
+        </div>
+        <div class="row d-flex justify-content-around">
+            <h3 id="sg">Diabetes:</h3>
+            <div class="col-md-4">
+                <img height="250px"
+                    src="https://th.bing.com/th/id/OIP.jIioAIccOpNH6xH19OnnugHaE8?w=259&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3">
+                <br><br>
+                <button class="btn btn-large border border-dark d-block mx-auto "><a class="nav-link"
+                        href="Book-appointment.html">Book Appointment</a></button>
+            </div>
+            <div class="col-md-6">
+                <p class="para">
+                    There isn't a single "sugar clinic" that is the subject of a dedicated Wikipedia entry; however,
+                    Apollo Sugar Clinics is a prominent Indian diabetes and endocrine clinic chain, and its existence is
+                    documented on platforms like Bharatpedia and Wikidata. Other Wikipedia pages discuss broader topics
+                    related to diabetes, such as blood glucose monitoring, diabetes management, hypoglycemia, and the
+                    epidemiology of diabetes, which are relevant to the work of such clinics. Diabetes mellitus,
+                    commonly known as diabetes, is a group of common endocrine diseases characterized by sustained high
+                    blood sugar levels. Diabetes is due to either the pancreas not producing enough of the hormone
+                    insulin, or the cells of the body becoming unresponsive to insulin's effects. Classic symptoms
+                    include the three Ps: polydipsia (excessive thirst), polyuria (excessive urination), polyphagia
+                    (excessive hunger), weight loss, and blurred vision. If left untreated, the disease can lead to
+                    various health complications, including disorders of the cardiovascular system, eye, kidney, and
+                    nerves. Diabetes accounts for approximately 4.2 million deaths every year, with an estimated 1.5
+                    million caused by either untreated or poorly treated diabetes.
+                </p>
+            </div>
+            <hr>
+        </div>
+        <div class="row d-flex justify-content-around">
+            <h3 id="ph">Pharmacy:</h3>
+            <div class="col-md-4">
+                <img height="250px"
+                    src="https://th.bing.com/th/id/OIP.LMZsAJREb4ng4WQ5A0Wu_wHaEK?w=246&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3">
+                <br><br>
+                <button class="btn btn-large border border-dark d-block mx-auto "><a class="nav-link"
+                        href="Book-appointment.html">Book Appointment</a></button>
+            </div>
+            <div class="col-md-6">
+                <p class="para">
+                    Clinical pharmacy is the branch of pharmacy in which clinical pharmacists provide direct patient
+                    care that optimizes the use of medication and promotes health, wellness, and disease prevention.
+                    Clinical pharmacists care for patients in all health care settings but the clinical pharmacy
+                    movement initially began inside hospitals and clinics. Clinical pharmacists often work in
+                    collaboration with physicians, physician assistants, nurse practitioners, and other healthcare
+                    professionals. Clinical pharmacy is the branch of pharmacy in which clinical pharmacists provide
+                    direct patient care that optimizes the use of medication and promotes health, wellness, and disease
+                    prevention. Clinical pharmacists care for patients in all health care settings but the clinical
+                    pharmacy movement initially began inside hospitals and clinics. Clinical pharmacists often work in
+                    collaboration with physicians, physician assistants, nurse practitioners, and other healthcare
+                    professionals. Clinical pharmacists can enter into a formal collaborative practice agreement with
+                    another healthcare provider, generally one or more physicians, that allows pharmacists to prescribe
+                    medications and order laboratory tests.
+                </p>
+            </div>
+            <hr>
+        </div>
+        <div class="row d-flex justify-content-around">
+            <h3 id="ma">Make an Enquiry:</h3>
+            <div class="col-md-4">
+                <img height="250px"
+                    src="https://th.bing.com/th/id/OIP.4Vuy9hZgYskw9XTVUDWUYQHaFc?w=256&h=188&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3">
+                <br><br>
+                <button class="btn btn-large border border-dark d-block mx-auto "><a class="nav-link"
+                        href="Book-appointment.html">Book Appointment</a></button>
+            </div>
+            <div class="col-md-6">
+                <p class="para">
+                    A clinic (or outpatient clinic or ambulatory care clinic) is a health facility that is primarily
+                    focused on the care of outpatients. Clinics can be privately operated or publicly managed and
+                    funded. They typically cover the primary care needs of populations in local communities, in contrast
+                    to larger hospitals which offer more specialized treatments and admit inpatients for overnight stay.
+                    Most commonly, the English word clinic refers to a general practice, run by one or more general
+                    practitioners offering small therapeutic treatments, but it can also mean a specialist clinic. Some
+                    clinics retain the name "clinic" even while growing into institutions as large as major hospitals or
+                    becoming associated with a hospital or medical school.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row st d-flex justify-content-around">
+            <div class="col-md-3 col-6">
+                <h3 class="text-white">Quick Links:</h3>
+                <a class="nav-link d-block mb-3" href="Home.html">Home</a>
+                <a class="nav-link d-block mb-3" href="Services.html">Services</a>
+                <a class="nav-link d-block mb-3" href="Book-appointment.html">Book-Appointment</a>
+                <a class="nav-link d-block mb-3" href="Contact.html">Contact</a>
+            </div>
+            <div class="col-md-3 col-6">
+                <h3 class="text-white">Services:</h3>
+                <a class="nav-link d-block mb-1" href="Services.html#den">Dental</a>
+                <a class="nav-link d-block mb-1" href="Services.html#sg">Diabates</a>
+                <a class="nav-link d-block mb-1" href="Services.html#up">Health CheckUP</a>
+                <a class="nav-link d-block mb-1" href="Services.html#ph">Vaccinations</a>
+                <a class="nav-link d-block mb-1" href="Services.html#phy">Physiotherapy</a>
+                <a class="nav-link d-block mb-1" href="Services.html#ph">Pharmacy</a>
+                <a class="nav-link d-block mb-1" href="Services.html#ma">Make an Enquiry</a>
+            </div>
+            <div class="col-md-3 col-6">
+                <h3 class="text-white">Diagnostics:</h3>
+                <a class="nav-link d-block mb-2" href="Home.html#lab">Laboratory</a>
+                <a class="nav-link d-block mb-2" href="Home.html#xr">X-ray</a>
+                <a class="nav-link d-block mb-2" href="Home.html#ecg">ECG</a>
+                <a class="nav-link d-block mb-2" href="Home.html#tmt">TMT</a>
+                <a class="nav-link d-block mb-2" href="Home.html#gst">Genetic Screening Test</a>
+                <a class="nav-link d-block mb-2" href="Home.html#bt">Blood Test</a>
+            </div>
+            <div class="col-md-3 col-6">
+                <h2 class="text-white">Designed by:</h2>
+                <h4 class="text-white ms-5">Vasanth Tavva</h4>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
